@@ -1,0 +1,49 @@
+*{
+	background-color: red;
+}
+
++{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.Botones{
+
+	max-width: 350px;
+	margin: 0 auto;
+	height: 100vh;
+	max-height: 745px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 25px, 20px, 20px yellowgreen;
+}
+
+h1{
+	font-size: 35px;
+	text-align: center;
+	padding: 30px;
+}
+
+#First-text{
+	font-size: 26px;
+	text-align: center;
+	padding: 20px;
+}
+
+#result{
+	
+	text-align: center;
+	width: 40%;		
+}
+#group-btn{
+	display: flex;
+	width: 100%;
+}
+
+#group-btn > Button > img{
+	width: 100%;
+}
+
